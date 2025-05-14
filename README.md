@@ -1,1 +1,2 @@
-# nba_test
+# nba_capstone
+Capstone Project

@@ -1,0 +1,36 @@
+# Core Flask Stack
+Flask>=3.0.3
+gunicorn==23.0.0
+greenlet==3.0.0
+
+# Auth & Security
+Flask-Bcrypt==1.0.1
+Flask-Login==0.6.3
+Flask-WTF==1.2.1
+bcrypt==4.2.0
+email_validator==2.2.0
+Flask-Mail==0.9.1
+
+# Database
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.31
+
+# TensorFlow (Minimal)
+# tensorflow-cpu>=2.16.1
+tensorflow-macos==2.16.1
+protobuf==4.25.6  # Explicitly pin to avoid conflicts
+numpy>=1.26.4
+
+# Essential Dependencies
+Werkzeug==3.0.3
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+click==8.1.7
+itsdangerous==2.2.0
+pandas==1.4.0
+pillow==10.4.0
+
+# System Requirements
+pip>=23.0.1
+setuptools>=68.0
+wheel>=0.40.0
